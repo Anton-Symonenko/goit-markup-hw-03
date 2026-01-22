@@ -12,8 +12,12 @@ p {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-
+        margin: 0;
     }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+
 h2 {
     font-weight: 700;
     font-size: 36px;
@@ -31,17 +35,28 @@ h3 {
     }
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+
     }
     .container {
         max-width: 1158px;
-        padding: 0, 15px;
-        margin: 0, auto;
+        padding: 0 15px;
+        margin: 0 auto;
     }
 
 /* #endregion all */
 
 /* #region header*/
 
+.page-header {
+border-bottom: 1px solid #e7e9fc;
+     }
+
+     .header-container {
+        display: flex;
+        align-items: center;
+     }
 
 .logo {
         font-family: Raleway;
@@ -52,6 +67,8 @@ ul {
         color:#2E2F42;
         text-decoration: none;
         text-transform: uppercase;
+        padding: 24px 0;
+        margin-right: 76px;
     }
 .span-logo-top{
         color: #4D5AE5;
@@ -64,10 +81,23 @@ ul {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: flex;
+        align-items: center;
+        
+
     }
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+    
 .nav-link{
         color: #2E2F42;
         text-decoration: none;
+        padding: 24px 0;
+        display: block;
      }
 
 .nav-link:hover {
@@ -86,6 +116,14 @@ ul {
         letter-spacing: 0.02em;
         color: #434455;
         font-style: normal;
+        margin-left: auto;
+    }
+
+    .header-address {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        
     }
     
 .address-link:hover {
@@ -98,6 +136,8 @@ ul {
     .address-link {
         color: #434455;
         text-decoration: none;
+        display: block;
+        padding: 24px;
     }
 
     /* #endregion header */
