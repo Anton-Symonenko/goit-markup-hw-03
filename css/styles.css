@@ -146,7 +146,20 @@ border-bottom: 1px solid #e7e9fc;
 
 .main-hero {
     background-color: #2E2F42;
-}
+            min-height: 100vh;
+            
+            align-items: center;
+        
+        }
+        
+        
+.container-hero {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            display: flex;
+        }
+
 .main-hero-text {
         font-family: Roboto;
         font-weight: 700;
@@ -155,8 +168,16 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.02em;
         color: #ffffff;
         text-align: center;
+        padding: 188px 472px 0;
+        margin-bottom: 48px; 
+        max-width: 496px;
+
 }
+
+
+
 .main-hero-button {
+    margin-bottom: 188px;
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
@@ -165,6 +186,11 @@ border-bottom: 1px solid #e7e9fc;
         color: #ffffff;
         background-color: #4D5AE5;
         cursor: pointer;
+        border-radius: 4px; 
+        min-width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        
 }
 .main-hero-button:hover {
     background-color: #404BBF;
