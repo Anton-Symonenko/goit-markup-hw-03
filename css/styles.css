@@ -307,6 +307,7 @@ border-bottom: 1px solid #e7e9fc;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-bottom: 120px;
 
 }
 
@@ -329,9 +330,6 @@ border-bottom: 1px solid #e7e9fc;
         width: 360px;
         padding: 32px 0 0 16px;
         text-align: left;
-        
-        
-
 
 }
 
