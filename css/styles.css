@@ -296,8 +296,28 @@ border-bottom: 1px solid #e7e9fc;
     background-color: #ffffff;
 }
 
-.text-our-portfolio{
+.our-portfolio-tittle {
     text-align: center;
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.our-portfolio-item {
+    
+}
+
+.our-portfolio-imeg {
+ 
+
+    
 }
 
 .name-service{
@@ -306,6 +326,13 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        width: 360px;
+        padding: 32px 0 0 16px;
+        text-align: left;
+        
+        
+
+
 }
 
 .text-service{
@@ -314,6 +341,9 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding: 0 0 32px 16px;
+
+       
 }
 
 /* #endregion portfolio */
@@ -322,17 +352,26 @@ border-bottom: 1px solid #e7e9fc;
 
 .footer {
     background-color: #2E2F42;
+    
+}
+
+.container-logo {
+
 }
 
 .logo-footer {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.167;
-        letter-spacing: 0.03em;
-        color: #F4F4FD;
-        text-decoration: none;
-        text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 16px;
+    display: block;
+        
 }
 
 .span-logo-bottom {
@@ -342,9 +381,12 @@ border-bottom: 1px solid #e7e9fc;
 .text-footer{
     color: #F4F4FD;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 100px;
+    text-align: left;
+    width: 264px;
 }
 
 /* #endregion footer */
