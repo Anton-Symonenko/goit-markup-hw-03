@@ -242,36 +242,41 @@ border-bottom: 1px solid #e7e9fc;
 .text-our-team {
     text-align: center;
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.111;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-top: 120px;
+    margin-bottom: 72px;
     }
 
-.main-mark-guerrero {
-    background-color: #ffffff;
+.our-team-list {
+    display: flex;
+    gap: 24px;
 
 }
 
-.main-tom-ford {
+.our-team-item {
     background-color: #ffffff;
+    margin-bottom: 120px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    width: calc((100% - (24px*3)) / 4);
+
+
 }
 
-.main-camila-garcia {
-    background-color: #ffffff;
-}
 
-.main-daniel-wilson {
-    background-color: #ffffff;
-}
 
 .name-worker {
     text-align: center;
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin: 32px 65px 8px;
 }
 .profesion{
         text-align: center;
@@ -280,6 +285,7 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin: 0 68px 32px;
 }
 
 /* #endregion our team */
