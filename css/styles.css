@@ -145,21 +145,15 @@ border-bottom: 1px solid #e7e9fc;
 /* #region hero */
 
 .main-hero {
-    background-color: #2E2F42;
-            min-height: 100vh;
-            
-            align-items: center;
+    background-color: #2E2F42;  
         
         }
         
         
 .container-hero {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    
+        display: block;
+        justify-items:center;
+
         }
 
 .main-hero-tittle {
@@ -169,15 +163,13 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 1.071;
         letter-spacing: 0.02em;
         color: #ffffff;
-        text-align: center;
-        padding: 188px 472px 0;
+        padding: 188px 0 0 0;
         margin-bottom: 48px; 
+        max-width: 496px;
+        text-align: center;
         
 
-
 }
-
-
 
 .main-hero-button {
     margin-bottom: 188px;
