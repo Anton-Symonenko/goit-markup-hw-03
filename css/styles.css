@@ -200,7 +200,7 @@ border-bottom: 1px solid #e7e9fc;
 
 /* #region our feature*/
 
-.our-feature-tittle {
+.visually-hidden {
             position: absolute;
             width: 1px;
             height: 1px;
